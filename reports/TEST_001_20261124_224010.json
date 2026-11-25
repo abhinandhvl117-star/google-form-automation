@@ -1,0 +1,27 @@
+{
+  "respondent_id": "TEST_001",
+  "status": "failed",
+  "pages": [
+    {
+      "page_id": "page_1",
+      "answered": 9,
+      "skipped": 0,
+      "warnings": []
+    },
+    {
+      "page_id": "page_2",
+      "answered": 7,
+      "skipped": 0,
+      "warnings": []
+    },
+    {
+      "page_id": "page_3",
+      "answered": 15,
+      "skipped": 0,
+      "warnings": []
+    }
+  ],
+  "error": "p4_q1: aria-checked never became 'true' after clicking",
+  "started_at": "2026-11-24T22:39:32",
+  "finished_at": "2026-11-24T22:40:08"
+}

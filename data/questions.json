@@ -1,0 +1,492 @@
+{
+  "scales": {
+    "scale_1": [
+      "Rarely or never",
+      "Seldom",
+      "Occasionally",
+      "Frequently",
+      "Very frequently or always"
+    ],
+    "scale_2": [
+      "Rearly or never",
+      "Seldom",
+      "Occasionally",
+      "Frequently",
+      "Very frequently or always"
+    ],
+    "scale_3": [
+      "Not at all",
+      "Rarely",
+      "Occasionally",
+      "Sometimes",
+      "Often",
+      "Very Often",
+      "All the time"
+    ],
+    "scale_4": [
+      "Strongly disagree",
+      "Disagree",
+      "Neutral",
+      "Agree",
+      "Strongly agree"
+    ],
+    "scale_5": [
+      "Always",
+      "Often",
+      "Sometimes",
+      "Seldom",
+      "Never/ almost never"
+    ]
+  },
+  "pages": {
+    "page_1": {
+      "title": "Page 1",
+      "questions": {
+        "p1_q1": {
+          "label": "Gender ",
+          "type": "radio",
+          "required": true,
+          "max_selections": 1,
+          "options": [
+            "Male",
+            "Female",
+            "Prefer not to say"
+          ]
+        },
+        "p1_q2": {
+          "label": "Age ",
+          "type": "text",
+          "required": true,
+          "validation": {}
+        },
+        "p1_q3": {
+          "label": "Number of dependents (children/ elders)",
+          "type": "text",
+          "required": true,
+          "validation": {}
+        },
+        "p1_q4": {
+          "label": "Marital status ",
+          "type": "radio",
+          "required": true,
+          "max_selections": 1,
+          "options": [
+            "Single",
+            "Married"
+          ]
+        },
+        "p1_q5": {
+          "label": "Total work experience in corporative sector",
+          "type": "radio",
+          "required": true,
+          "max_selections": 1,
+          "options": [
+            "Less than 1 year",
+            "1-3 years",
+            "3-5 years",
+            "6-10 years",
+            "More than 10 years"
+          ]
+        },
+        "p1_q6": {
+          "label": "Current job level /designation",
+          "type": "radio",
+          "required": true,
+          "max_selections": 1,
+          "options": [
+            "Entry level /executive",
+            "Mid level management / team lead",
+            "Senior management /director"
+          ]
+        },
+        "p1_q7": {
+          "label": "Average working hours per week",
+          "type": "radio",
+          "required": true,
+          "max_selections": 1,
+          "options": [
+            "Under 40 hours",
+            "40-45 hours",
+            "46 - 50 hours",
+            "More than 50 hours"
+          ]
+        },
+        "p1_q8": {
+          "label": "Employment Sector",
+          "type": "radio",
+          "required": true,
+          "max_selections": 1,
+          "options": [
+            "IT/Software",
+            "Other corporate sector"
+          ]
+        },
+        "p1_q9": {
+          "label": " Have you worked in your current organisation for at least one year?",
+          "type": "radio",
+          "required": true,
+          "max_selections": 1,
+          "options": [
+            "Yes",
+            "No"
+          ]
+        }
+      }
+    },
+    "page_2": {
+      "title": "Page 2",
+      "questions": {
+        "p2_q1": {
+          "label": "My manager communicates a clear and inspiring vision of the future",
+          "type": "checkbox",
+          "required": true,
+          "max_selections": 1,
+          "options": [
+            "Rarely or never",
+            "Seldom",
+            "occasionally",
+            "Frequently",
+            "very frequently or always"
+          ]
+        },
+        "p2_q2": {
+          "label": "My manager treats staff members as individuals and support their development",
+          "type": "checkbox",
+          "required": true,
+          "max_selections": 1,
+          "scale": "scale_1"
+        },
+        "p2_q3": {
+          "label": "My manager encourages and recognize staff members for their achievements",
+          "type": "checkbox",
+          "required": true,
+          "max_selections": 1,
+          "scale": "scale_2"
+        },
+        "p2_q4": {
+          "label": "My manager fosters trust, involvement ,and cooperation among team members",
+          "type": "checkbox",
+          "required": true,
+          "max_selections": 1,
+          "scale": "scale_2"
+        },
+        "p2_q5": {
+          "label": "My manager encourages us to think about problems in new and innovative ways.",
+          "type": "checkbox",
+          "required": true,
+          "max_selections": 1,
+          "scale": "scale_2"
+        },
+        "p2_q6": {
+          "label": "My manager is clear about his /her values and practices what he /she preaches",
+          "type": "checkbox",
+          "required": true,
+          "max_selections": 1,
+          "scale": "scale_1"
+        },
+        "p2_q7": {
+          "label": "My manager instills pride and respect in others and inspires me",
+          "type": "checkbox",
+          "required": true,
+          "max_selections": 1,
+          "scale": "scale_1"
+        }
+      }
+    },
+    "page_3": {
+      "title": "Page 3",
+      "questions": {
+        "p3_q1": {
+          "label": "My personal life suffers because of work",
+          "type": "radio",
+          "required": true,
+          "max_selections": 1,
+          "scale": "scale_3"
+        },
+        "p3_q2": {
+          "label": "My job makes personal life difficult",
+          "type": "checkbox",
+          "required": true,
+          "max_selections": 1,
+          "scale": "scale_3"
+        },
+        "p3_q3": {
+          "label": "I neglect personal needs because of work",
+          "type": "checkbox",
+          "required": true,
+          "max_selections": 1,
+          "scale": "scale_3"
+        },
+        "p3_q4": {
+          "label": "I put personal life on hold for work",
+          "type": "checkbox",
+          "required": true,
+          "max_selections": 1,
+          "scale": "scale_3"
+        },
+        "p3_q5": {
+          "label": "I miss personal activities because of work",
+          "type": "checkbox",
+          "required": true,
+          "max_selections": 1,
+          "scale": "scale_3"
+        },
+        "p3_q6": {
+          "label": "I struggle to juggle work and non-work",
+          "type": "checkbox",
+          "required": true,
+          "max_selections": 1,
+          "scale": "scale_3"
+        },
+        "p3_q7": {
+          "label": "I am unhappy with the amount of time for non-work activities",
+          "type": "checkbox",
+          "required": true,
+          "max_selections": 1,
+          "scale": "scale_3"
+        },
+        "p3_q8": {
+          "label": "My personal life drains me of energy for work",
+          "type": "checkbox",
+          "required": true,
+          "max_selections": 1,
+          "scale": "scale_3"
+        },
+        "p3_q9": {
+          "label": "I am too tired to be effective at work",
+          "type": "checkbox",
+          "required": true,
+          "max_selections": 1,
+          "scale": "scale_3"
+        },
+        "p3_q10": {
+          "label": "My work suffers because of my personal life",
+          "type": "checkbox",
+          "required": true,
+          "max_selections": 1,
+          "scale": "scale_3"
+        },
+        "p3_q11": {
+          "label": "It is hard to work because of personal matters",
+          "type": "checkbox",
+          "required": true,
+          "max_selections": 1,
+          "scale": "scale_3"
+        },
+        "p3_q12": {
+          "label": "My personal life gives me energy for my job  ",
+          "type": "checkbox",
+          "required": true,
+          "max_selections": 1,
+          "scale": "scale_3"
+        },
+        "p3_q13": {
+          "label": "My job gives me energy to pursue personal activities",
+          "type": "checkbox",
+          "required": true,
+          "max_selections": 1,
+          "scale": "scale_3"
+        },
+        "p3_q14": {
+          "label": "I have a better mood at work because of personal life",
+          "type": "checkbox",
+          "required": true,
+          "max_selections": 1,
+          "scale": "scale_3"
+        },
+        "p3_q15": {
+          "label": "I have a better mood because of my job",
+          "type": "checkbox",
+          "required": true,
+          "max_selections": 1,
+          "scale": "scale_3"
+        }
+      }
+    },
+    "page_4": {
+      "title": "Page 4",
+      "questions": {
+        "p4_q1": {
+          "label": "I tend to bounce back quickly after hard times.",
+          "type": "checkbox",
+          "required": false,
+          "max_selections": 1,
+          "scale": "scale_4"
+        },
+        "p4_q2": {
+          "label": "I have a hard time making it through stressful evenvents .(reverse scored)",
+          "type": "radio",
+          "required": false,
+          "max_selections": 1,
+          "scale": "scale_4"
+        },
+        "p4_q3": {
+          "label": "It does not take me long to recover from a stressful event",
+          "type": "radio",
+          "required": false,
+          "max_selections": 1,
+          "scale": "scale_4"
+        },
+        "p4_q4": {
+          "label": "It is hard for me to snap back when something bad happens.\n (reverse scored)",
+          "type": "radio",
+          "required": false,
+          "max_selections": 1,
+          "scale": "scale_4"
+        },
+        "p4_q5": {
+          "label": "I usually come through difficult times with little trouble",
+          "type": "radio",
+          "required": false,
+          "max_selections": 1,
+          "scale": "scale_4"
+        },
+        "p4_q6": {
+          "label": "I tend to take a long time to get over set- backs in my life.\n( reverse scored)",
+          "type": "radio",
+          "required": false,
+          "max_selections": 1,
+          "scale": "scale_4"
+        }
+      }
+    },
+    "page_5": {
+      "title": "Page 5",
+      "questions": {
+        "p5_q1": {
+          "label": "How often do you feel tired?",
+          "type": "checkbox",
+          "required": true,
+          "max_selections": 1,
+          "scale": "scale_5"
+        },
+        "p5_q2": {
+          "label": "How often are you physically exhausted?",
+          "type": "checkbox",
+          "required": true,
+          "max_selections": 1,
+          "scale": "scale_5"
+        },
+        "p5_q3": {
+          "label": "How often are you emotionally is exhausted?",
+          "type": "checkbox",
+          "required": true,
+          "max_selections": 1,
+          "scale": "scale_5"
+        },
+        "p5_q4": {
+          "label": "How often do you think: 'I can't take it anymore?'",
+          "type": "checkbox",
+          "required": true,
+          "max_selections": 1,
+          "scale": "scale_5"
+        },
+        "p5_q5": {
+          "label": "How often do you feel worn out?",
+          "type": "checkbox",
+          "required": true,
+          "max_selections": 1,
+          "scale": "scale_5"
+        },
+        "p5_q6": {
+          "label": "How often do you feel weak and susceptible to illness?",
+          "type": "checkbox",
+          "required": true,
+          "max_selections": 1,
+          "scale": "scale_5"
+        },
+        "p5_q7": {
+          "label": "Is your work emotionally exhausting?",
+          "type": "checkbox",
+          "required": true,
+          "max_selections": 1,
+          "scale": "scale_5"
+        },
+        "p5_q8": {
+          "label": "Do you feel burnt out because of your work?",
+          "type": "checkbox",
+          "required": true,
+          "max_selections": 1,
+          "scale": "scale_5"
+        },
+        "p5_q9": {
+          "label": "Does your work frustrate you?",
+          "type": "checkbox",
+          "required": true,
+          "max_selections": 1,
+          "scale": "scale_5"
+        },
+        "p5_q10": {
+          "label": "Do you feel worn out at the end of the working day?\n",
+          "type": "checkbox",
+          "required": true,
+          "max_selections": 1,
+          "scale": "scale_5"
+        },
+        "p5_q11": {
+          "label": "Are you exhausted in the morning at the thought of another  day at work?\n",
+          "type": "checkbox",
+          "required": true,
+          "max_selections": 1,
+          "scale": "scale_5"
+        },
+        "p5_q12": {
+          "label": "Do you feel that every working hour is tiring for you?\n",
+          "type": "checkbox",
+          "required": true,
+          "max_selections": 1,
+          "scale": "scale_5"
+        },
+        "p5_q13": {
+          "label": "Do you have enough energy for family and friends during leisure time?\n(Reverse scored)",
+          "type": "checkbox",
+          "required": true,
+          "max_selections": 1,
+          "scale": "scale_5"
+        },
+        "p5_q14": {
+          "label": "Do you find it hard to work with clients?",
+          "type": "checkbox",
+          "required": true,
+          "max_selections": 1,
+          "scale": "scale_5"
+        },
+        "p5_q15": {
+          "label": "Do you find it frustrating to work with clients?",
+          "type": "checkbox",
+          "required": true,
+          "max_selections": 1,
+          "scale": "scale_5"
+        },
+        "p5_q16": {
+          "label": "Does it drain your energy to work with clients?",
+          "type": "checkbox",
+          "required": true,
+          "max_selections": 1,
+          "scale": "scale_5"
+        },
+        "p5_q17": {
+          "label": "Do you feel that you give more than you get back when you work with clients?",
+          "type": "checkbox",
+          "required": true,
+          "max_selections": 1,
+          "scale": "scale_5"
+        },
+        "p5_q18": {
+          "label": "Are you tired of working with clients?",
+          "type": "checkbox",
+          "required": true,
+          "max_selections": 1,
+          "scale": "scale_5"
+        },
+        "p5_q19": {
+          "label": "Do you sometimes wonder how long you will be able to continue working with clients?",
+          "type": "checkbox",
+          "required": true,
+          "max_selections": 1,
+          "scale": "scale_5"
+        }
+      }
+    }
+  }
+}

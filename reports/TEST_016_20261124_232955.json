@@ -1,0 +1,39 @@
+{
+  "respondent_id": "TEST_016",
+  "status": "submitted",
+  "pages": [
+    {
+      "page_id": "page_1",
+      "answered": 9,
+      "skipped": 0,
+      "warnings": []
+    },
+    {
+      "page_id": "page_2",
+      "answered": 7,
+      "skipped": 0,
+      "warnings": []
+    },
+    {
+      "page_id": "page_3",
+      "answered": 15,
+      "skipped": 0,
+      "warnings": []
+    },
+    {
+      "page_id": "page_4",
+      "answered": 6,
+      "skipped": 0,
+      "warnings": []
+    },
+    {
+      "page_id": "page_5",
+      "answered": 19,
+      "skipped": 0,
+      "warnings": []
+    }
+  ],
+  "error": null,
+  "started_at": "2026-11-24T23:29:22",
+  "finished_at": "2026-11-24T23:29:53"
+}
